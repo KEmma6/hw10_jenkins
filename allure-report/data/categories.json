@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "File not found in classpath: imgForTestRegistration.png",
+      "children" : [ {
+        "name" : "checkStudentRegistration()",
+        "uid" : "4bc049eec0d8790b",
+        "parentUid" : "c8bcf29fd2ad3b09b1f58333c7a6539c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640023864230,
+          "stop" : 1640023992074,
+          "duration" : 127844
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c8bcf29fd2ad3b09b1f58333c7a6539c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

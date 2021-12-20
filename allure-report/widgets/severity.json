@@ -1,0 +1,11 @@
+[ {
+  "uid" : "4bc049eec0d8790b",
+  "name" : "checkStudentRegistration()",
+  "time" : {
+    "start" : 1640023864230,
+    "stop" : 1640023992074,
+    "duration" : 127844
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

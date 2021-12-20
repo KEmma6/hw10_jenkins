@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Mon Dec 20 21:11:04 MSK 2021","Mon Dec 20 21:13:12 MSK 2021","127844","","homework10.test.RegistrationFormTest","","homework10.test.RegistrationFormTest","checkStudentRegistration","checkStudentRegistration()",""

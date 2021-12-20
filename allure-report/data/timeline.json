@@ -1,0 +1,135 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-S2VQAF3",
+    "children" : [ {
+      "name" : "12068@DESKTOP-S2VQAF3.Test worker(18)",
+      "children" : [ {
+        "name" : "checkStudentRegistration()",
+        "uid" : "c90e79e6296bfdb2",
+        "parentUid" : "ba3fa26dec17d3e8eb3261a0d0b42c29",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640023754503,
+          "stop" : 1640023773030,
+          "duration" : 18527
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ba3fa26dec17d3e8eb3261a0d0b42c29"
+    }, {
+      "name" : "12332@DESKTOP-S2VQAF3.Test worker(15)",
+      "children" : [ {
+        "name" : "checkStudentRegistration()",
+        "uid" : "b1c3c5a25f651a6d",
+        "parentUid" : "4b051404e7a83f912aaae23961e9c014",
+        "status" : "failed",
+        "time" : {
+          "start" : 1640023342116,
+          "stop" : 1640023378371,
+          "duration" : 36255
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4b051404e7a83f912aaae23961e9c014"
+    }, {
+      "name" : "7192@DESKTOP-S2VQAF3.Test worker(18)",
+      "children" : [ {
+        "name" : "checkStudentRegistration()",
+        "uid" : "6b9d1c05bccfcbf3",
+        "parentUid" : "b145550897082ba79b53eb85a185954f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640023638977,
+          "stop" : 1640023663516,
+          "duration" : 24539
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b145550897082ba79b53eb85a185954f"
+    }, {
+      "name" : "8184@DESKTOP-S2VQAF3.Test worker(18)",
+      "children" : [ {
+        "name" : "checkStudentRegistration()",
+        "uid" : "4bc049eec0d8790b",
+        "parentUid" : "fb8e8999d232f64f767c1e353220af2a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640023864230,
+          "stop" : 1640023992074,
+          "duration" : 127844
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb8e8999d232f64f767c1e353220af2a"
+    }, {
+      "name" : "10496@DESKTOP-S2VQAF3.Test worker(18)",
+      "children" : [ {
+        "name" : "checkStudentRegistration()",
+        "uid" : "969a1fd1ef306150",
+        "parentUid" : "649683980ef708799e6a4cd52103103c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640023821544,
+          "stop" : 1640023834415,
+          "duration" : 12871
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "649683980ef708799e6a4cd52103103c"
+    }, {
+      "name" : "528@DESKTOP-S2VQAF3.Test worker(15)",
+      "children" : [ {
+        "name" : "checkStudentRegistration()",
+        "uid" : "81b19eb66a33defa",
+        "parentUid" : "4e3fee5c2fa7eb524b33444dd8c3540d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1640023473899,
+          "stop" : 1640023494265,
+          "duration" : 20366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4e3fee5c2fa7eb524b33444dd8c3540d"
+    } ],
+    "uid" : "56925386e538194d9e0fb2630ff5a985"
+  } ]
+}
