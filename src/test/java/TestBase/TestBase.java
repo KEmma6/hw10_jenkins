@@ -19,7 +19,7 @@ public class TestBase {
         Configuration.browserSize = "1440x800";
 
         Configuration.remote = format("https://%s:%s@%s", credentials.login(), credentials.password(),
-                System.getProperty("url"));
+                System.getProperty("url", "selenoid.autotests.cloud/wd/hub/"));
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
