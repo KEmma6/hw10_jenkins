@@ -17,14 +17,10 @@ public class TestBase {
     @BeforeAll
     static void beforeAll() {
         Configuration.browserSize = "1440x800";
-
-        Configuration.remote = format("https://%s:%s@%s", credentials.login(), credentials.password(),
-                System.getProperty("url", "selenoid.autotests.cloud/wd/hub/"));
-
+        Configuration.remote = format("https://%s:%s@%s", credentials.login(), credentials.password(), System.getProperty("url", "selenoid.autotests.cloud/wd/hub/"));
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
-
         Configuration.browserCapabilities = capabilities;
     }
 
