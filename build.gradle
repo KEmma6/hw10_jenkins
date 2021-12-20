@@ -49,3 +49,9 @@ tasks.withType(Test) {
         }
     }
 }
+
+task properties_tests(type: Test) {
+    systemProperties(System.getProperties())
+        useJUnitPlatform {}
+}
+
