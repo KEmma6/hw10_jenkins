@@ -21,7 +21,7 @@ public class RegistrationFormTest extends TestBase {
         String gender = "Female";
         String year = "1992";
         String month = "November";
-        String image = "imgForTestRegistration.png";
+        String image = "images/imgForTestRegistration.png";
 
         registrationPage
                 .openPage();
