@@ -3,13 +3,11 @@ package homework10.test;
 import TestBase.TestBase;
 import com.github.javafaker.Faker;
 import homework10.pages.RegistrationPage;
-import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 public class RegistrationFormTest extends TestBase {
 
     @Test
-    @Tag("properties")
     void checkStudentRegistration() {
         Faker faker = new Faker();
         RegistrationPage registrationPage = new RegistrationPage();
@@ -53,7 +51,6 @@ public class RegistrationFormTest extends TestBase {
                 .assertTableAfterRegistrationHave(month)
                 .assertTableAfterRegistrationHave(year)
                 .assertTableAfterRegistrationHave(subject)
-                .assertTableAfterRegistrationHave(address)
-                .assertTableAfterRegistrationHave(image);
+                .assertTableAfterRegistrationHave(address);
     }
 }
